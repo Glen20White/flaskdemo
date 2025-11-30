@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}About This App{% endblock %}
+{% block content %}
+
+<h1>About This App</h1>
+
+<p>
+    This website allows you to search for Wikipedia pages and view key information, such as the page title, summary, and a link to the full article.
+</p>
+
+<p>
+    It uses the Wikipedia API (via the wikipedia Python module) and is built with the Flask web framework.
+</p>
+
+<h3>Features</h3>
+<ul>
+    <li>Search by page title or keywords</li>
+    <li>View summary text and direct page link</li>
+    <li>Handles disambiguation automatically</li>
+    <li>Keeps your last search in session storage</li>
+</ul>
+
+<p>
+    This project was created for learning purposes and demonstrates basic Flask routing, templates, and API usage.
+</p>
+{% endblock %}

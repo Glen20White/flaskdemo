@@ -1,5 +1,7 @@
 {% extends "layout.html" %}
 {% block title %}Home{% endblock %}
 {% block content %}
-    <p>This is the home page. It's not exciting yet...</p>
+    <p>
+        <img src="{{ url_for('static', filename='images/wiki_logo.jpg') }}" alt="Wikipedia logo">
+    </p>
 {% endblock %}
